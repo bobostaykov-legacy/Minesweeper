@@ -28,7 +28,7 @@ public class Minesweeper {
             while (a) {
                 a = false;
 
-                System.out.println("\nChoose a board size:");
+                System.out.println("\nChoose a board size (rows columns):");
 
                 try {
                     maxRow = scan.nextInt();
